@@ -9,5 +9,3 @@ container.addEventListener('click', (evenT) => {
   const bigImg = document.querySelector('#largeImg');
   bigImg.src = evenT.target.parentNode.href;
 });
-
-
